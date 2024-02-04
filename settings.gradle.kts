@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Apidog"
+rootProject.name = "DogApi"
 include(":app")
