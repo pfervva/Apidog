@@ -1,4 +1,4 @@
-package com.example.apidog
+package com.example.dogapi
 
 import org.junit.Test
 

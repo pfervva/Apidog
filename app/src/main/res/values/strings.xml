@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Apidog</string>
+    <string name="app_name">DogApi</string>
+    <string name="text_description">descripcion img</string>
+    <string name="text_title">Nombre de la raza</string>
 </resources>
