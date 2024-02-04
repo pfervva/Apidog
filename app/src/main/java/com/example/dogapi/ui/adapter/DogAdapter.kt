@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dogapi.R
-import com.example.dogapi.data.models.Dog
+import com.example.dogapi.domain.model.Dog
 
 class DogAdapter(var dogs: MutableList<Dog> = mutableListOf()) :
     RecyclerView.Adapter<ViewHDog>() {

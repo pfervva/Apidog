@@ -1,8 +1,9 @@
 package com.example.dogapi.data.service
 
 import com.example.dogapi.data.datasource.Dogs
+import javax.inject.Inject
 
-class DogService : DogServiceInterface {
+class DogService @Inject constructor() : DogServiceInterface {
     override fun getDogs(): List<Pair<String, String>> {
         return Dogs.dogs
     }

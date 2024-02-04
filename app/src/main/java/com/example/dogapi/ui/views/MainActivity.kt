@@ -8,12 +8,13 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.dogapi.data.models.Dog
 import com.example.dogapi.databinding.ActivityMainBinding
-import com.example.dogapi.test.TestApi
+import com.example.dogapi.domain.model.Dog
 import com.example.dogapi.ui.adapter.DogAdapter
 import com.example.dogapi.ui.modelview.DogViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: DogAdapter
@@ -68,7 +69,7 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
     }
 
     private fun test() {
-        TestApi.testDogApi()
+        //TestApi.testDogApi()
     }
 
     override fun onQueryTextSubmit(query: String?): Boolean {

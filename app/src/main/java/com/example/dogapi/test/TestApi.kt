@@ -5,12 +5,12 @@ import com.example.dogapi.domain.usercase.GetDogsBreedUseCase
 
 class TestApi {
     companion object {
-        fun testDogApi() {
+        /*fun testDogApi() {
             val useCaseBreed = GetDogsBreedUseCase("raza1")
             val listDogs = useCaseBreed()
             listDogs.forEach {
                 Log.i("TAG-DOGS", it.image)
             }
-        }
+        }*/
     }
 }
